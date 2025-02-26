@@ -3,7 +3,7 @@
     --input-background: #3b3f4a;
     --button-background: #81f04e;
     --button-hover: #ec481f;
-    --border-color: #555;
+    --border-color: #000000;
     --shadow-color: rgba(0, 0, 0, 0.5);
     
 }
@@ -26,35 +26,56 @@ body {
 .login-container {
     background: #2f5049;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: 0 4px 10px var(--shadow-color);
     text-align: center;
-    width: 300px;
+    width: 500px;
 }
 
 .profile-img {
-    font-size: 60px;   
+    font-size: 100px;   
     margin-bottom: 15px;
 }
 
 h2 {
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 800;
+    background-color: #ec481f;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+
+.rellenar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:column;
+    flex-wrap: wrap;
+    background-color: rgb(64, 128, 106);
+    padding: 20px;
+    border-radius: 50px;
+
 }
 
 label {
     display: block;
-    text-align: left;
+    text-align: center;
     margin: 10px 0 5px;
 }
 
 input {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid var(--border-color);
-    border-radius: 5px;
+    border-radius: 100px;
     background: var(--input-background);
     color: var(--text-color);
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
 
 button {
@@ -62,7 +83,7 @@ button {
     padding: 10px;
     background: var(--button-background);
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     color: var(--text-color);
     font-weight: bold;
     font-size: medium;
